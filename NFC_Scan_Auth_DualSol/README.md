@@ -1,5 +1,5 @@
 # NFC_Scan_Auth
-This program builds on my previous authorizer to pwer two small 5V solenoids. My idea behind this is to create a small locking box with a battery to power the components when in use.
+This program builds on my previous authorizer to power two small 5V solenoids. My idea behind this is to create a small locking box with a battery to power the components when in use.
 ##### Parts List
 - MFRC522: An integrated reader/writer IC for contactless communcication.
   - Operaterating frequency: 13.56 MHZ
