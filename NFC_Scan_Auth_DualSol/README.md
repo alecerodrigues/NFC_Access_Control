@@ -53,4 +53,4 @@ The MFRC522 and the two solenoids must be connected to the Nano is a specific wa
 | (1) 5V | D3 |
 | (2) 5V | D4 |
 
-The solenoids also produce a current kickback when operating so it is critical to utilise a mosfet and a diode on each in order to ensure the operating safety of the solenoids. A diagram of how thhat needs to be setup can be seen below.
+The solenoids also produce a current kickback when operating so it is critical to utilise a mosfet and a diode on each in order to ensure the operating safety of the solenoids. A diagram of how that needs to be setup can be seen below.
