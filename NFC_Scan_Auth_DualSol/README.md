@@ -19,8 +19,24 @@ This program builds on my previous authorizer to power two small 5V solenoids. M
   - Weight: 12.6g
 ![image](https://user-images.githubusercontent.com/57117759/113364221-f266ec00-9320-11eb-8548-b1edb1c70be1.png)
 
+- N-Channel MOSFET:
+  - *IRLB8721*
+    - Max Voltage: 30V
+    - Max Current: 62A
+    - Gate Threshold: 2.35V
+  - 5V logic compatible
+  - ![image](https://user-images.githubusercontent.com/57117759/113364799-6ce43b80-9322-11eb-811e-701f3ec89640.png)
+
+- Rectifier Diode:
+  - *1N4004*
+    - Max Voltage: 400V
+    - Forward Current: 1A
+    - Max Current: 30A
+  - ![image](https://user-images.githubusercontent.com/57117759/113364974-e419cf80-9322-11eb-94e2-5bcb42ddb802.png)
+
+
 ##### Putting it all together...
-The MFRC522 must be connected to the Nano is a specific way to function. Certain parameters can be changed within the program itself but for my purposes, I have listed the connecting pins below.
+The MFRC522 and the two solenoids must be connected to the Nano is a specific way to function. Certain parameters can be changed within the program itself but for my purposes, I have listed the connecting pins below.
 | MFRC522 | Arduino Nano |
 | --- | --- |
 | SDA | D10 |
@@ -31,3 +47,10 @@ The MFRC522 must be connected to the Nano is a specific way to function. Certain
 | GND | GND |
 | RST | (NONE) |
 | 3.3V | 3V3 |
+
+| Solenoids | Arduino Nano |
+| --- | --- |
+| (1) 5V | D3 |
+| (2) 5V | D4 |
+
+The solenoids also produce a current kickback when operating so it is critical to utilise a mosfet and a diode on each in order to ensure the operating safety of the solenoids. A diagram of how thhat needs to be setup can be seen below.
