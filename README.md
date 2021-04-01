@@ -1,6 +1,6 @@
 # NFC_Access_Control
 
-This repo is designed to catalog a my small projects based around designing and implementing an Arduino-based NFC access control system.
+This repo is designed to catalog my small projects based around designing and implementing an Arduino-based NFC access control system.
 
 ##### Parts List
 - MFRC522: An integrated reader/writer IC for contactless communcication.
