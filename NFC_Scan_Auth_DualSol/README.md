@@ -57,6 +57,6 @@ The solenoids also produce a current kickback when operating so it is critical t
 ![image](https://user-images.githubusercontent.com/57117759/114279125-0be2f480-9a01-11eb-944b-5ce990d0414c.png)
 
 ##### Alpha Build
-![image](https://user-images.githubusercontent.com/57117759/114280025-6da55d80-9a05-11eb-8622-268b15be9eff.png)
+![](https://raw.githubusercontent.com/alecerodrigues/NFC_Access_Control/main/NFC_Scan_Auth_DualSol/assets/Alpha.gif)
 
 
