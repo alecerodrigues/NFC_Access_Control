@@ -56,3 +56,7 @@ The MFRC522 and the two solenoids must be connected to the Nano is a specific wa
 The solenoids also produce a current kickback when operating so it is critical to utilise a mosfet and a diode on each solenoid in order to ensure the operating safety of the solenoids. A example diagram of how to be setup one of the solenoids can be seen below, adding more solenoids is as simple as repeating this circuit and connecting it to the appropriate voltage, I/O, and GND pins: 
 ![image](https://user-images.githubusercontent.com/57117759/114279125-0be2f480-9a01-11eb-944b-5ce990d0414c.png)
 
+##### Alpha Build
+![image](https://user-images.githubusercontent.com/57117759/114280025-6da55d80-9a05-11eb-8622-268b15be9eff.png)
+
+
